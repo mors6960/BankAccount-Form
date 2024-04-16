@@ -1,0 +1,262 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: #8F929A;
+    position: relative;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+label {
+    color: white;
+}
+
+#fName {
+    display: inline-block;
+    margin: 20px;
+    width: 23%;
+    background-color: rgb(79, 75, 75);
+    color: white;
+
+}
+
+#mName {
+    display: inline-block;
+    width: 23%;
+    margin: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+#lName {
+    display: inline-block;
+    width: 23%;
+    margin: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+radio {
+    margin-left: 705px;
+}
+
+#DOB {
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+fieldset {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+fieldset legend {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+fieldset label {
+    font-size: 18px;
+}
+
+fieldset input {
+    margin-left: 30px;
+}
+
+#addres {
+    margin: 20px;
+}
+
+textarea {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+    font-size: 1.11em;
+}
+
+#mob {
+    margin: 20px;
+}
+
+#number {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transition: background 0.5s, transform 0.5s;
+    transform: translateX(-50%);
+}
+
+#submit,
+#reset {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(79, 75, 75);
+    margin: 0 10px;
+    position: relative;
+}
+
+#submit:hover {
+    background: rgb(79, 75, 75);
+    transform: translateY(-5px);
+    color: white;
+    font-size: 15px;
+}
+
+#reset:hover {
+    background-color: rgb(79, 75, 75);
+    transform: translateY(-5px);
+    color: white;
+    font-size: 15px;
+} */
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #9A8F7E;
+}
+
+.container {
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: #8F929A;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+label {
+    color: white;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+input[type="tel"] {
+    width: calc(100% - 30px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+radio label {
+    color: rgb(79, 75, 75);
+    font-weight: 900;
+}
+
+fieldset {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: rgb(79, 75, 75);
+    color: white;
+}
+
+fieldset legend {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+fieldset label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: calc(100% - 40px);
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(79, 75, 75);
+    color: white;
+    font-size: 1.11em;
+    resize: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+#submit,
+#reset {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+    margin: 0 10px;
+    background-color: #fff;
+    color: rgb(79, 75, 75);
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover,
+#reset:hover {
+    background-color: rgb(79, 75, 75);
+    color: white;
+    transform: translateY(-5px);
+    font-size: 15px;
+}

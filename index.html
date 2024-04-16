@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Bank Account</h1>
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" id="fName">
+        <label for="middleName">Middle Name: </label>
+        <input type="text" name="middleName" id="mName">
+        <label for="LastName">Last Name: </label>
+        <input type="text" name="lastName" id="lName">
+        <label for="dob">Date Of Birth: </label>
+        <input type="date" name="dob" id="DOB">
+        <radio>
+            <label for="gender" id="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </radio>
+        <fieldset>
+            <legend>Profession</legend>
+            <input type="radio" id="student" name="profession" value="Student">
+            <label for="student">Student</label>
+            <input type="radio" id="job" name="profession" value="Job">
+            <label for="job">Job</label>
+            <input type="radio" id="business" name="profession" value="Business">
+            <label for="business">Business</label>
+        </fieldset>
+        <fieldset>
+            <legend>Option</legend>
+            <input type="checkbox" id="credit" name="option" value=" Credit Card ,">
+            <label for="creditCard"> Credit Card </label>
+            <input type="checkbox" id="debit" name="option" value=" Debit Card ,">
+            <label for="debitCard"> Debit Card </label>
+            <input type="checkbox" id="international" name="option" value=" International Card, ">
+            <label for=" InternationalCar"> International Card </label>
+            <input type="checkbox" name="option" id="visa" value=" Visa Card ">
+            <label for="visaCard"> Visa Card </label>
+        </fieldset>
+        <label for="address" id="addres">Address:</label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea>
+        <br>
+        <label for="mobile" id="mob">Mobile:</label><br>
+        <input type="tel" id="number" placeholder="Use Country Code +91">
+        <br>
+        <div class="button-container">
+            <input type="button" value="-Submit the Form-" id="submit" onclick="show()">
+            <input type="button" value="-Reset the Form-" id="reset" onclick="reset()">
+        </div>
+    </div>
+</body>
+
+</html>
